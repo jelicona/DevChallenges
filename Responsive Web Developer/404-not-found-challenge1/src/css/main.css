@@ -1,0 +1,57 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 5em;
+    height: 100vh - 15rem;
+}
+
+.main-image{
+    margin-right: 8em;
+}
+
+.main-image img{
+    max-width: 539px;
+    max-height: 447px;
+}
+
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  font-family: monospace;
+  color:  #333333;
+  
+}
+
+.main-text h1 {
+    font-size: 5em;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.main-text h2 {
+    font-size: 2em;
+    font-weight: 400;
+    padding-right: 8em;
+}
+
+.main-text input {
+    max-width: 15em;
+    height: 5em;
+    background:  rgb(51, 51, 51);
+    color: #fff;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 1rem
+}
+
+.main-text input:hover {
+    cursor: pointer;
+    background-color: rgb(51, 51, 51, 0.9);
+}
+
+.main-text input:active {
+    text-decoration: underline;
+}
